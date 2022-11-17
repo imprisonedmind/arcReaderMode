@@ -1,0 +1,13 @@
+/* This is injected after a web page loads */
+#customOverlay {
+  display: flex;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 50000 !important;
+  background-color: rgba(185, 112, 16, 0.521);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
